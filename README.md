@@ -1,36 +1,24 @@
 # fun-chat-ai
-Python chat project 
-<!-- local setup  -->
-Fork the Repository
+A terminal-based AI-powered application for fun conversations.A terminal-based AI-powered application for fun conversations.
+## Technlogies
+Python, Flask, SqlAlchemy
+## Local Deployment
+clone the project
 ```sh
 git@github.com:tomdu3/fun-chat-ai.git
 ```
-Clone the Repo
+Navigate to the project directory
 ```sh
-git clone git@github.com:ci-sumi/fun-chat-ai.git
 cd <project-folder>
 ```
-Intialize   the project with uv
-```sh
-uv init
-```
-Update the project configuration
-Add the project description to pyproject.toml
+Install dependencies
 ```sh
 uv sync
 ```
-It automatically create .venv
-Add core dependencies
+This command creates a virtual environment (.venv) automatically and installs all project dependencies.
+
+Run the application
 ```sh
-uv add flask,sqlalchemy,dotenv
+uv run python main.py
 ```
-##Reference video 
-```mermaid
-A[Start] --> B[Initialize DeepSeek LLM]
-    B --> C[Load Knowledge/Data Source]
-    C --> D[Create Chatbot Function]
-    E --> F[Invoke Chatbot with question and context]
-    G --> H[DeepSeek Generates Response]
-    H --> I[Display Answer]
-    I --> J[End]
-```
+
