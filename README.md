@@ -24,3 +24,13 @@ Add core dependencies
 ```sh
 uv add flask,sqlalchemy,dotenv
 ```
+##Reference video 
+```mermaid
+A[Start] --> B[Initialize DeepSeek LLM]
+    B --> C[Load Knowledge/Data Source]
+    C --> D[Create Chatbot Function]
+    E --> F[Invoke Chatbot with question and context]
+    G --> H[DeepSeek Generates Response]
+    H --> I[Display Answer]
+    I --> J[End]
+```
