@@ -21,4 +21,21 @@ Run the application
 ```sh
 uv run python main.py
 ```
+#Flow chart 
+Start ->Setup Deepseek Model->Loading data->Define the function of chatbot->Invoke chatbot with question and context->Get result from model->Display result->End
+```mermaid
+flowchart TD
+A([Start])--> B[Setup DeepSeek Model]
+B-->C[Load Data]
+C-->D[Define Chatbot function]
+D-->E[Evoke Chatbot with question and Context]
+E-->F[Get result from Model]
+F-->G[Display Result]
+G-->H[End]
+```
 
+
+
+
+#Reference
+https://www.youtube.com/watch?v=rfH6f1U4_kE Build a Simple Chatbot with DeepSeek
