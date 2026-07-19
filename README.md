@@ -50,6 +50,10 @@ LanguageChain-Groqu is a connector that allows Langchain applications to use Gro
 Langchain-community
 
 It provides connetctors and integrations.Collection of integrations that connect Langchain applications to external datasource,tools and services.
+```sh
+uv add langchain lanchain-groq langchain-community
+
+```
 
 
 
