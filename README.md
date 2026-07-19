@@ -34,8 +34,32 @@ F-->G[Display Result]
 G-->H[End]
 ```
 
+langchain
+langchain-groq
+langchain-community
+ 
+
+###Langchain
+Agent =Model +Harness
+LangChain provides a minimal ,highly configurable harness.The harness is everything around the model loop:the prompt,the tools,and any middleware that shapes the behaviour.
+on other hand,its a standalone framework for building agents  and third party integrations to simplify AI application development.
+
+Longchain-groq
+LanguageChain-Groqu is a connector that allows Langchain applications to use Groq-hosted Large Language models.
+
+Langchain-community
+
+It provides connetctors and integrations.Collection of integrations that connect Langchain applications to external datasource,tools and services.
+
+
+
 
 
 
 #Reference
 https://www.youtube.com/watch?v=rfH6f1U4_kE Build a Simple Chatbot with DeepSeek
+https://docs.langchain.com/oss/python/langchain/overview
+LangChain overview
+https://github.com/langchain-ai/langchain The agent engineering platform.
+
+
