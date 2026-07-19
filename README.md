@@ -54,6 +54,9 @@ It provides connetctors and integrations.Collection of integrations that connect
 uv add langchain lanchain-groq langchain-community
 
 ```
+```sh
+uv add python-dotenv
+```
 
 
 
