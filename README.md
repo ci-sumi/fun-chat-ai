@@ -94,5 +94,6 @@ It provides connetctors and integrations.Collection of integrations that connect
 <https://docs.langchain.com/oss/python/langchain/overview>
 LangChain overview
 <https://github.com/langchain-ai/langchain> The agent engineering platform.
+https://build.nvidia.com/nvidia/nemotron-3-super-120b-a12b
 
 ## Copyright
