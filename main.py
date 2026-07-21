@@ -1,15 +1,14 @@
 import os
 from dotenv import load_dotenv
-# python talk to Groq's AI chat models.
-from langchain_groq import ChatGroq
+# python talk to NVIDIA's AI chat models.
+from langchain_nvidia_ai_endpoints import ChatNVIDIA
 
 from flask import Flask
 
 load_dotenv()
-apikey=os.getenv('GROQ_API_KEY')
-print(apikey)
+apikey=os.getenv('NVIDIA_API_KEY')
 model="nvidia/nemotron-3-super-120b-a12b"
-deepseek =ChatGroq(api_key=apikey,model=model)
+deepseek = ChatNVIDIA(api_key=apikey, model=model)
 print(deepseek.invoke("Hello, Tomi Tomi!"))
 app = Flask(__name__)
 @app.route('/')
