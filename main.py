@@ -8,7 +8,7 @@ from flask import Flask
 load_dotenv()
 apikey=os.getenv('GROQ_API_KEY')
 print(apikey)
-model="llama-3.3-70b-versatile"
+model="nvidia/nemotron-3-super-120b-a12b"
 deepseek =ChatGroq(api_key=apikey,model=model)
 print(deepseek.invoke("Hello, Tomi Tomi!"))
 app = Flask(__name__)
