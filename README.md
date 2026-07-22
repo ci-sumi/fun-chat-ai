@@ -88,6 +88,14 @@ Langchain-community
 
 It provides connetctors and integrations.Collection of integrations that connect Langchain applications to external datasource,tools and services.
 
+
+```sh
+uv add langchain-nvidia-ai-endpoints
+```
+```sh
+uv add python-dotenv
+```
+
 ## References
 
 <https://www.youtube.com/watch?v=rfH6f1U4_kE> Build a Simple Chatbot with DeepSeek
